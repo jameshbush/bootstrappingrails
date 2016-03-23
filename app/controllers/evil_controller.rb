@@ -1,0 +1,2 @@
+class EvilController < ApplicationController
+end
