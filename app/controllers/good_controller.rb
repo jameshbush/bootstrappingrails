@@ -1,4 +1,7 @@
 class GoodController < ApplicationController
-  def evil
+
+  def be_good
+    @message = "Remember the Golden Rule."
   end
+
 end
