@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+
+  get '/good/be_good', as: :good
+
+  get 'evil/be_evil', as: :evil
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
